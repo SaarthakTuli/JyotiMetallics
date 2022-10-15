@@ -5,9 +5,7 @@ import './index.css'
 
 function App() {
     return (
-        <React.StrictMode>
-            <Home />
-        </React.StrictMode>
+        <Home />
     );
 }
 
