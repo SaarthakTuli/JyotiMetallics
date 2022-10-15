@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Header.css"
 
-import Banner from "../../assets/Banner1.jpg"
+import Banner from "../../Banner/Banner1.jpg"
 
 function Header() {
   return (
