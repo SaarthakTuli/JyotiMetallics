@@ -5,7 +5,7 @@
   width: 100%;
   padding: 20px;
   justify-content: space-between;
-  height: 30px;
+  height: 100px;
 
   z-index: 1;
 
@@ -14,7 +14,7 @@
 }
 
 .nav__black {
-  background-color: #111;
+  background-color: var(--color-primary);
 }
 
 .nav__logo {

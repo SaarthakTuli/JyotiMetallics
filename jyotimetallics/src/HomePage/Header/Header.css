@@ -5,6 +5,8 @@
   display: flex;
   justify-content: center;
   text-align: center;
+
+  margin-bottom: 5rem;
 }
 
 .banner__contents {

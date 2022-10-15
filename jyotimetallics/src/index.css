@@ -30,3 +30,8 @@ html {
 a {
   text-decoration: none;
 }
+
+.container {
+  width: var(--container-width-lg);
+  margin: 0 auto;
+}
