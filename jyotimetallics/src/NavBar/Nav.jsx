@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { Link, Outlet } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import "./Nav.css"
 
 
@@ -21,18 +21,20 @@ function Nav() {
     }, []);
     
     return (
-        <div className={ `nav ${show && `nav__black`}`}>
+        <>
+            <div className={ `nav ${show && `nav__black`}`}>
             <h1 className='nav__logo'>JM</h1>
             
             <ul className='nav__links'>
                 <li><Link to="/">Home</Link></li>
-                <li><Link to="/about">About Us</Link></li>
-                <li><Link to="/products">Products</Link></li>
-                <li><Link to="/contact">Contact Us</Link></li>
+                <li><Link to="about">About Us</Link></li>
+                <li><Link to="products">Products</Link></li>
+                <li><Link to="contact">Contact Us</Link></li>
             </ul>
-
-            <Outlet />
-        </div>
+            </div>
+            
+        </>
+        
     );
 }
 

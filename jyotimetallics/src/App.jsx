@@ -1,10 +1,11 @@
 import React from "react";
 import
 {
-    BrowserRouter as Router,
     Switch,
     Route
 } from 'react-router-dom';
+
+import { Routes } from "react-router";
 
 
 import Home from './HomePage/Home'
@@ -16,14 +17,14 @@ import './index.css'
 
 function App() {
     return (
-        <Router>
-            <Switch>
-                    <Route index element={<Home />} />
-                    <Route path="/about" element={<About />} />
-                    <Route path="/products" element={<Products />} />
-                    <Route path="/contact" element={<Contact />} />
-                </Switch>
-        </Router>
+        <div className="App">
+            <Routes>
+                <Route exact path="/" index element={<Home />} />
+                <Route path="about" element={<About />} />
+                <Route path="products" element={<Products />} />
+                <Route path="contact" element={<Contact />} />
+        </Routes>
+    </div>
     );
 }
 
