@@ -6,7 +6,7 @@
   bottom: 120px;
   right: 40px;
   color: var(--color-primary);
-  border: 2px solid var(--color-primary);
+  border: 2px dotted var(--color-primary);
   background-color: var(--color-white);
   border-radius: 50px;
   text-align: center;
@@ -19,6 +19,7 @@
 
 .arrow-icon {
   margin-top: 16px;
+  color: var(--color-primary);
 }
 
 .arrow_show {
