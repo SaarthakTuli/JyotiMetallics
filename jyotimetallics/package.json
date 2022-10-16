@@ -9,6 +9,10 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
+    "@iconify/icons-mdi": "^1.2.32",
+    "@iconify/react": "^4.0.0",
+    "emailjs-com": "^3.2.0",
+    "google-map-react": "^2.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router": "^6.4.2",
