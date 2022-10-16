@@ -26,10 +26,18 @@ function Nav() {
             <h1 className='nav__logo'>JM</h1>
             
             <ul className='nav__links'>
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="about">About Us</Link></li>
-                <li><Link to="products">Products</Link></li>
-                <li><Link to="contact">Contact Us</Link></li>
+                    <li>
+                        <Link to="/">Home</Link>
+                    </li>
+                    <li>
+                        <Link to="/about">About Us</Link>
+                    </li>
+                    <li>
+                        <Link to="/products">Products</Link>
+                    </li>
+                    <li>
+                        <Link to="/contact">Contact Us</Link>
+                    </li>
             </ul>
             </div>
             
