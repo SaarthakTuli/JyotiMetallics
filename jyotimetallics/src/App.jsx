@@ -15,7 +15,9 @@ import About from './About/About';
 import Products from './Products/Products';
 import Contact from './Contact/Contact';
 import ErrorPage from "./ERROR/ErrorPage";
-import Whatsapp from './Whatsapp/Whatsapp'
+
+import Whatsapp from './Whatsapp/Whatsapp';
+import UPArrow from "./UpArrow/UPArrow";
 
 import { ScatterBoxLoader } from "react-awesome-loaders";
 
@@ -30,21 +32,22 @@ function App() {
 
         setTimeout(() => { 
             setLoading(false);
-        }, 10000)
+        }, 5000)
     }, []);
 
     return (
         <div className="App">
-
-            
                 
             <Router>
             {loading ? 
                 
-                <ScatterBoxLoader
-                    primaryColor={"#6366F1"}
-                    background={'#ffffff'}
-                />
+                <div className="loading__screen">
+                    <ScatterBoxLoader
+                        primaryColor={"#6366F1"}
+                        background={'#ffffff'}
+                    />
+                    </div>
+                    
                     :
 
                     <div>
@@ -62,6 +65,7 @@ function App() {
                         </Switch>
 
                         <Whatsapp />
+                        <UPArrow />
                 </div>
             }
 

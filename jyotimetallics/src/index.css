@@ -35,3 +35,11 @@ a {
   width: var(--container-width-lg);
   margin: 0 auto;
 }
+
+.loading__screen {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+
+  transform: scale(2);
+}
