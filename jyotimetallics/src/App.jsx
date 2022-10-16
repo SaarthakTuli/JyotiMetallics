@@ -15,6 +15,7 @@ import About from './About/About';
 import Products from './Products/Products';
 import Contact from './Contact/Contact';
 import ErrorPage from "./ERROR/ErrorPage";
+import Whatsapp from './Whatsapp/Whatsapp'
 
 import './index.css'
 
@@ -36,6 +37,8 @@ function App() {
                     <Route exact path ="/404" component={ErrorPage} />
                     <Redirect to="/404" />
                 </Switch>
+
+                <Whatsapp />
 
                 {/* Creater Footer if necessary */}
             </Router>

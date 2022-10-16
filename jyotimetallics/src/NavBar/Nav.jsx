@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom';
 import "./Nav.css"
 
+import Logo from '../assets/logo.png';
+
 
 function Nav() {
 
@@ -23,7 +25,8 @@ function Nav() {
     return (
         <>
             <div className={ `nav ${show && `nav__black`}`}>
-            <h1 className='nav__logo'>JM</h1>
+                {/* <h1 className='nav__logo'>JM</h1> */}
+                <img src={Logo} alt="logo" />
             
             <ul className='nav__links'>
                     <li>
