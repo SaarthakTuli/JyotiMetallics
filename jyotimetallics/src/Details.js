@@ -22,16 +22,79 @@ details = [
   },
   {
     id: 4,
-    name: "Continuous galvanizing line (CGL) ",
+    name: "Continuous galvanizing line (CGL)",
     description:
       "The purpose of the continuous galvanizing line (CGL) is to apply a layer of zinc to the surface of the steel sheet to improve corrosion resistance. The thickness of the zinc layer is widely controlled, and galvanized steel sheets are used in a wide range of applications such as building materials, automobiles, and electrical appliances. CGL has unparalleled features that are highly valued by customers.",
     image: "images/CGL.jpg",
   },
   {
     id: 5,
-    name: "Continuous galvanizing line (CGL) ",
+    name: "Backup Chocks",
     description:
       "Product Description Promising outstanding quality, the company was able to provide its valued customers with the most affordable quality support roller blocks. The reel inductors offered are manufactured in our advanced production units in accordance with established industry standards and under the strict supervision of qualified professionals. The retractors we offer are highly regarded in the market for their high performance and rugged construction. Customers can purchase these products at marginal prices. Characteristic: Low maintenance Extension of life Sturdy structure. Product Description: With market development in mind, we manufacture, export and supply the highest quality backup roll chock. We develop high-quality work rolls and backup rolls that are active in various industries. Known for its reliable performance, compact design and low maintenance requirements, our chokes are available to our customers in stock sizes from 200mm to 800mm. Our colors are also tested with various parameters by quality controllers to ensure their performance and durability. (can be customised according to customer need)",
     image: "images/BackupChocks.jpg",
+  },
+  {
+    id: 6,
+    name: "Work roll Chocks",
+    description:
+      "With the support of experienced professionals, we provide high quality work roll chock. We provide work roll chocks with grinding. Quality is our main concern. For this reason, we use quality controlled raw materials and the latest technology to manufacture and export this mill wedge. The wedges we offer are highly regarded in the market for their capacity and efficiency. Customers can get this range from us at a reasonable price.",
+    image: "images/WorkRollChocks.jpg",
+  },
+  {
+    id: 7,
+    name: "Mill and Roll Chocks",
+    description:
+      "With the support of experienced professionals, we offer unique quality rolling mill wedges. Quality is our main concern. For this reason, we use quality controlled raw materials and the latest technology to manufacture and export this mill wedge. The wedges we offer are highly regarded in the market for their capacity and efficiency. Customers can get this range from us at a reasonable price. Characteristic: Corrosion resistance Easy maintenance Long life. ",
+    image: "images/MillRollChocks.jpg",
+  },
+  {
+    id: 8,
+    name: "6 Hi Leveller",
+    description:
+      "6-hi leveler is specially designed for straighteng skin sensitive sheets,like Alumunium,crca EDD &amp; D grade,Copper etc. This designes ensures that there is no scratch produced and results to very good flatness.",
+    image: "images/6hieveller.jpg",
+  },
+  {
+    id: 9,
+    name: "Entry Coil Car Assembly Machine",
+    description:
+      "Leveraging the skills of our qualified team of professionals, we are instrumental in offering a wide range of Entry Coil Car Assembly Machine.",
+    image: "images/larentrycoilcar.jpg",
+  },
+  {
+    id: 10,
+    name: "Iron Three Phase Exit Coil Car Assembly Machine",
+    description:
+      "We have carved a niche amongst the most trusted names in this business, engaged in offering a comprehensive range of Exit Coil Car Assembly Machine.",
+    image: "images/larexitcoilcar.jpg",
+  },
+  {
+    id: 11,
+    name: "Coil Peeler",
+    description:
+      "We are a leading manufacturer, supplier and trader of Coil Peeler. Peeler Table peels off the outer wrap of the coil loaded on UN-cooler and guides it to the Pinch roll unit. This is an extend-able table supported and pivoted from structural steel support. The extending and pivoting motion of the table are actuated by two hydraulic cylinders.",
+    image: "images/larpeeler.jpg",
+  },
+  {
+    id: 12,
+    name: "Deflector cum pinch roll",
+    description:
+      "We are instrumental in offering a quality range of Deflector Cum Pinch Roll. Our offered range is manufactured as par the industry set quality parameters making use of qualitative raw-material. Besides, our professionals use all the advanced tools and their vast industrial experience to improvise this range of the products. Our quality controllers also keep a eagle eye over the entire manufacturing process of the offered range.",
+    image: "images/DeflectorPinchRoll.jpg",
+  },
+  {
+    id: 13,
+    name: "Pinch cum Leveller",
+    description:
+      "Pinch Roll Cum Leveller Roll Machine is Use in Cold Rolling Mills for Statning and Flatting the coil for Direct on mill, Cut to length process etc. machine have 7 no. pinch Rolls and 4 no. Pinch Rolls of EN-31 Material with hardness of 55-60 HRC and Motor of 20 Hp 3 phase.",
+    image: "images/larpinchcumleveller.jpg",
+  },
+  {
+    id: 14,
+    name: "Uncoiler and Recoiler",
+    description:
+      "Uncoiler Gearbox are special gear units used in Steel Industries. They are foot mounted, multiple stage helical gear units with a special output shaft.",
+    image: "images/uncoiler.jpg",
   },
 ];

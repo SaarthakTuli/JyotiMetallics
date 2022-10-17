@@ -15,6 +15,7 @@ function ProductBox({ name, description, image }) {
       <div className='product__div' style={{
       backgroundSize: "cover",
       background: `url(${image}), linear-gradient(#111, #000)`,
+      backgroundRepeat: "no-repeat",
       backgroundPosition: "center center"
     }}>
       
