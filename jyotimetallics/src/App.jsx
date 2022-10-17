@@ -8,13 +8,14 @@ import
 } from 'react-router-dom';
 
 import Nav from './NavBar/Nav'
-import Header from "./Header/Header";
 
 import Home from './HomePage/Home'
 import About from './About/About'; 
 import Products from './Products/Products';
 import Contact from './Contact/Contact';
 import ErrorPage from "./ERROR/ErrorPage";
+
+import Footer from "./Footer/Footer";
 
 import Whatsapp from './Whatsapp/Whatsapp';
 import UPArrow from "./UpArrow/UPArrow";
@@ -39,21 +40,22 @@ function App() {
         <div className="App">
                 
             <Router>
-            {loading ? 
+                {
+                    loading ? 
                 
                 <div className="loading__screen">
                     <ScatterBoxLoader
                         primaryColor={"#6366F1"}
                         background={'#ffffff'}
                     />
-                    </div>
+                </div>
                     
                     :
 
                     <div>
+                            
                         <Nav />
-                        <Header />
-
+                            
                         <Switch>
                             <Route exact path="/" component={Home} />
                             <Route exact path="/about" component={About} />
@@ -62,8 +64,10 @@ function App() {
                             
                             <Route exact path ="/404" component={ErrorPage} />
                             <Redirect to="/404" />
-                        </Switch>
-
+                            </Switch>
+                            
+                        <Footer />
+                            
                         <Whatsapp />
                         <UPArrow />
                 </div>
@@ -71,9 +75,6 @@ function App() {
 
                 {/* Creater Footer if necessary */}
             </Router>
-        
-
-            
     </div>
     );
 }

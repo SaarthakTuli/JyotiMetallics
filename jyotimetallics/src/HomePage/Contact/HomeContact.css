@@ -1,26 +1,11 @@
-.banner {
-  object-fit: contain;
-  height: 448px;
-
+.homeContactDiv {
   display: flex;
   justify-content: center;
-  text-align: center;
-
-  margin-bottom: 5rem;
+  align-items: center;
+  height: 448px;
 }
 
-.banner__contents {
-  padding-top: 140px;
-  height: 190px;
-}
-
-.banner__title {
-  font-size: 70px;
-  color: var(--color-black);
-  margin-bottom: 2rem;
-}
-
-.banner__button {
+.homeContactBtn {
   cursor: pointer;
   outline: none;
   border: none;
@@ -37,10 +22,6 @@
   transition: all 0.25s;
 }
 
-.banner__button:hover {
+.homeContactBtn:hover {
   background-color: var(--color-primary-varient);
-}
-
-.light {
-  color: var(--color-white);
 }

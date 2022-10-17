@@ -38,9 +38,24 @@
   font-size: 0.8rem;
 }
 
-.anchor {
+/* unvisited link */
+a:link {
+  color: var(--color-white);
+}
+
+/* visited link */
+a:visited {
+  color: var(--color-white);
+}
+
+a:hover {
   color: var(--color-black);
 }
+/*
+ selected link 
+a:active {
+  color: blue;
+} */
 
 /* ====================== FORM ========================= */
 

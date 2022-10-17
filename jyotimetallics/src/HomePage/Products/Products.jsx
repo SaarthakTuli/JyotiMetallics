@@ -8,7 +8,10 @@ import ProductBox from './ProductBox';
 
 function Products() {
     return (
-        <div className='container product__container' style={{marginTop: "5rem"}}>
+        <div className='container product__container' style={{
+            marginTop: "5rem",
+            marginBottom: "15rem"
+        }}>
             {details.map((product) => {
                 
                 const {id, name, description, image} = product;

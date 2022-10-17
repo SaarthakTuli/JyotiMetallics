@@ -1,9 +1,8 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import "./Header.css"
 
-import Banner from "../Banner/Banner1.jpg"
-
-function Header() {
+function Header({ Banner, text, lightText }) {
   return (
     <header
       className='banner'
@@ -13,8 +12,10 @@ function Header() {
         backgroundPosition: "center center"
       }}>
       <div className='banner__contents'>
-        <h1 className='banner__title'>Welcome to Jyoti Metallics</h1>
-        <button className='banner__button'>Know More</button>
+        <h1 className={`banner__title ${lightText && `light`}`}>{text}</h1>
+        <button className='banner__button'>
+          <Link to="/about">Know More</Link>
+        </button>
       </div>
 
     </header>
