@@ -1,0 +1,29 @@
+.values__container {
+  border: 5px solid var(--color-primary);
+  border-radius: 1rem;
+}
+
+.values__contents {
+  background: linear-gradient(
+    180deg,
+    var(--color-primary-varient),
+    var(--color-black)
+  );
+  padding: 15px 15px 15px 15px;
+}
+
+.values__image {
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+}
+
+.values__title {
+  font-size: 36px;
+  color: var(--color-white);
+}
+
+.values__description {
+  font-size: 16px;
+  color: var(--color-light);
+}
