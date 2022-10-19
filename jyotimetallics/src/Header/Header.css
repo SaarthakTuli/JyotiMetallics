@@ -1,6 +1,7 @@
 .banner {
-  object-fit: contain;
+  object-fit: calc(100%- 11px);
   height: 448px;
+  width: 100%;
 
   display: flex;
   justify-content: center;

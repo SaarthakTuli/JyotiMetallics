@@ -65,7 +65,6 @@ const Contact = () => {
             
             <Map location={location} zoomLevel={17} />
         </>
-        
     )
 };
 
