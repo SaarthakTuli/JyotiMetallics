@@ -9,7 +9,7 @@
     var(--color-primary-varient),
     var(--color-black)
   );
-  padding: 15px 15px 15px 15px;
+  padding: 15px 30px 15px 30px;
 }
 
 .values__image {
@@ -24,6 +24,6 @@
 }
 
 .values__description {
-  font-size: 16px;
+  font-size: 20px;
   color: var(--color-light);
 }

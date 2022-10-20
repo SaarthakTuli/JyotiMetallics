@@ -5,6 +5,7 @@ import Header from '../Header/Header';
 import AboutHome from './About/AboutHome';
 import Product from './Products/Products';
 import HomeContact from './Contact/HomeContact';
+import GoToTop from '../GoToTop';
 
 function Home() {
   return (
@@ -13,6 +14,8 @@ function Home() {
       <AboutHome />
       <Product />
       <HomeContact />
+
+      <GoToTop />
     </>
   );
 }

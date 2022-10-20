@@ -4,6 +4,7 @@ import Header from '../Header/Header';
 import Values from './Values';
 
 import './About.css'
+import GoToTop from '../GoToTop';
 
 
 const vmv = [
@@ -36,6 +37,21 @@ function About() {
       <Header Banner={"./Banner/AboutBanner.jpeg"} text={"About Us"} lightText={true} />
       <div className='container'>
 
+        <div className='about__intro'>
+          <div className='about__image'>
+            <img
+              src="./images/product9.png"
+              alt="temp"
+            />
+          </div>
+
+          <div className="about__contents">
+            <h1>Very goood company</h1>
+
+          </div>
+
+        </div>
+
          <div className='about__values'>
           {
             vmv.map((prop) => {
@@ -55,6 +71,8 @@ function About() {
           }
         </div> 
       </div>
+
+      <GoToTop />
       </>
     
   );

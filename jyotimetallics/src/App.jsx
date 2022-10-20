@@ -23,6 +23,7 @@ import UPArrow from "./UpArrow/UPArrow";
 import { ScatterBoxLoader } from "react-awesome-loaders";
 
 import './index.css'
+import GoToTop from "./GoToTop";
 
 
 function App() {
@@ -67,13 +68,15 @@ function App() {
                             </Switch>
                             
                         <Footer />
-                            
+                        
                         <Whatsapp />
                         <UPArrow />
+                        
+                        <GoToTop />
                 </div>
             }
 
-                {/* Creater Footer if necessary */}
+                
             </Router>
     </div>
     );

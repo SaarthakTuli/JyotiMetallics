@@ -6,6 +6,7 @@ import emailjs from 'emailjs-com'
 
 import Header from '../Header/Header';
 import Map from '../Map/Map'
+import GoToTop from '../GoToTop'
 
 
 const location = {
@@ -64,6 +65,8 @@ const Contact = () => {
             </section>
             
             <Map location={location} zoomLevel={17} />
+
+            <GoToTop />
         </>
     )
 };
