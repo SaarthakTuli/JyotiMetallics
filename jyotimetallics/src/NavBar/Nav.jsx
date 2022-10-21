@@ -1,4 +1,7 @@
 import React, { useState, useEffect } from 'react'
+import { GiHamburgerMenu } from 'react-icons/gi';
+import { AiOutlineClose } from 'react-icons/ai';
+import Hamburger from 'hamburger-react'
 import { Link } from 'react-router-dom';
 import "./Nav.css"
 
@@ -21,14 +24,18 @@ function Nav() {
             window.removeEventListener("scroll", () => { });
         };
     }, []);
-    
+
+    const [isOpen, setIsOpen] = useState(false);
+
     return (
-        <>
-            <div className={ `nav ${show && `nav__black`}`}>
-                {/* <h1 className='nav__logo'>JM</h1> */}
-                <img src={Logo} alt="logo" />
+        <> 
+            <div className={ `nav ${show && `nav__black`} ${isOpen && `bg__color`}`}>
+                <img
+                    src={Logo}
+                    alt="logo"
+                />
             
-            <ul className='nav__links'>
+                <ul className={`nav__links nav__toggle ${isOpen && `Open`}`}>
                     <li>
                         <Link to="/">Home</Link>
                     </li>
@@ -41,7 +48,12 @@ function Nav() {
                     <li>
                         <Link to="/contact">Contact Us</Link>
                     </li>
-            </ul>
+                </ul> 
+                
+                <div className={`nav__icon `}>
+                    <Hamburger toggled={isOpen} toggle={setIsOpen} />
+                </div>
+                
             </div>
             
         </>
