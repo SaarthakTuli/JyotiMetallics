@@ -39,3 +39,21 @@
   color: var(--color-light);
   opacity: 1;
 }
+
+/* ============================== MEDIA QUERIES (MEDIUM DEVICES) ============================ */
+
+@media screen and (max-width: 1020px) {
+  .product__container {
+    grid-template-columns: 1fr 1fr;
+    gap: 5%;
+  }
+}
+
+/* ============================== MEDIA QUERIES (SMALL DEVICES) ============================ */
+
+@media screen and (max-width: 600px) {
+  .product__container {
+    grid-template-columns: 1fr;
+    gap: 2%;
+  }
+}

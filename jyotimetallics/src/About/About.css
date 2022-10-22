@@ -13,3 +13,21 @@
   grid-template-columns: 1fr 1fr 1fr;
   gap: 2%;
 }
+
+/* ============================== MEDIA QUERIES (MEDIUM DEVICES) ============================ */
+
+@media screen and (max-width: 1020px) {
+  .about__values {
+    grid-template-columns: 1fr 1fr;
+    gap: 5%;
+  }
+}
+
+/* ============================== MEDIA QUERIES (SMALL DEVICES) ============================ */
+
+@media screen and (max-width: 600px) {
+  .about__values {
+    grid-template-columns: 1fr;
+    gap: 2%;
+  }
+}

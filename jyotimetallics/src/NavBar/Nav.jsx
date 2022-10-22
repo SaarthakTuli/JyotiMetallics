@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from 'react'
-import { GiHamburgerMenu } from 'react-icons/gi';
-import { AiOutlineClose } from 'react-icons/ai';
 import Hamburger from 'hamburger-react'
 import { Link } from 'react-router-dom';
 import "./Nav.css"
@@ -27,6 +25,8 @@ function Nav() {
 
     const [isOpen, setIsOpen] = useState(false);
 
+    
+
     return (
         <> 
             <div className={ `nav ${show && `nav__black`} ${isOpen && `bg__color`}`}>
@@ -37,18 +37,18 @@ function Nav() {
             
                 <ul className={`nav__links nav__toggle ${isOpen && `Open`}`}>
                     <li>
-                        <Link to="/">Home</Link>
+                        <Link to="/" onClick={() => setIsOpen(false)}>Home</Link>
                     </li>
                     <li>
-                        <Link to="/about">About Us</Link>
+                        <Link to="/about" onClick={() => setIsOpen(false)}>About Us</Link>
                     </li>
                     <li>
-                        <Link to="/products">Products</Link>
+                        <Link to="/products" onClick={() => setIsOpen(false)}>Products</Link>
                     </li>
                     <li>
-                        <Link to="/contact">Contact Us</Link>
+                        <Link to="/contact" onClick={() => setIsOpen(false)}>Contact Us</Link>
                     </li>
-                </ul> 
+                </ul>
                 
                 <div className={`nav__icon `}>
                     <Hamburger toggled={isOpen} toggle={setIsOpen} />

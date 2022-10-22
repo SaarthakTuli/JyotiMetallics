@@ -14,9 +14,9 @@ function Header({ Banner, text, lightText }) {
       }}>
       <div className='banner__contents'>
         <h1 className={`banner__title ${lightText && `light`}`}>{text}</h1>
-        <button className='banner__button'>
+        {/* <button className='banner__button'>
           <Link to="/about">Know More</Link>
-        </button>
+        </button> */}
       </div>
 
     </header>

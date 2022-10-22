@@ -1,5 +1,6 @@
 import React from 'react'
 import GoToTop from '../GoToTop'
+import Header from '../Header/Header'
 
 function Products() {
   return (
