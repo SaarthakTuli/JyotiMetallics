@@ -1,0 +1,31 @@
+.qualification__div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2%;
+}
+
+.qualification__box {
+  color: var(--color-white);
+  background: var(--color-primary);
+  padding: 1.2rem;
+  border-radius: 1.2rem;
+  text-align: center;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+
+.qualification__box:hover {
+  background: transparent;
+  border-color: var(--color-primary);
+  color: var(--color-black);
+}
+
+.qualification__icon {
+  object-fit: cover;
+  scale: 1.5;
+}
+
+.qualification__name {
+  text-align: center;
+  font-size: 18px;
+}

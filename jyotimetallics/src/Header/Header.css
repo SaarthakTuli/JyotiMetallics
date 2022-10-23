@@ -36,11 +36,11 @@
   background-color: var(--color-primary);
 
   transition: all 0.25s;
-} */
+} 
 
 .banner__button:hover {
   background-color: var(--color-primary-varient);
-}
+} */
 
 .light {
   color: var(--color-white);
@@ -57,6 +57,5 @@
 @media screen and (max-width: 600px) {
   .banner__title {
     font-size: 36px;
-    margin: 2rem;
   }
 }

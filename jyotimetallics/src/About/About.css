@@ -3,9 +3,27 @@
   grid-template-columns: 1fr 1fr;
 }
 
+.about__title {
+  font-size: 50px;
+  padding-bottom: 1rem;
+}
+
+.about__description {
+  font-size: 22px;
+  padding-bottom: 1rem;
+  color: var(--color-primary);
+}
+
+.about__imageDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .about__image {
-  padding: 5px;
-  border: 5px solid var(--color-primary);
+  object-fit: cover;
+  height: 300px;
+  border-radius: 1rem;
 }
 
 .about__values {

@@ -5,6 +5,7 @@ import Values from './Values';
 
 import './About.css'
 import GoToTop from '../GoToTop';
+import Qualification from './Qualification';
 
 
 const vmv = [
@@ -38,16 +39,18 @@ function About() {
       <div className='container'>
 
         <div className='about__intro'>
-          <div className='about__image'>
+          <div className='about__imageDiv'>
             <img
               src="./images/product9.png"
               alt="temp"
+              className='about__image'
             />
           </div>
 
           <div className="about__contents">
-            <h1>Very goood company</h1>
-
+            <h1 className='about__title'>We deal in Customer Satisfaction</h1>
+            <h1 className='about__description'>We provide you with personalized recommendations according to your needs with utmost sincerity and the best quality products that would withstand any workload. We do all of this, while also maintaining the most competitive rates.</h1>
+            <Qualification />
           </div>
 
         </div>
