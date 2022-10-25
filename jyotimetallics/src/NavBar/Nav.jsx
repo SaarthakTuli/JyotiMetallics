@@ -48,6 +48,9 @@ function Nav() {
                         <Link to="/about" onClick={() => setIsOpen(false)}>About Us</Link>
                     </li>
                     <li>
+                        <Link to="/documents" onClick={() => setIsOpen(false)}>Documents</Link>
+                    </li>
+                    <li>
                         <h1 className='products' onClick={() => setIsDrop(!isDrop) }>Products</h1>
                         <div className={`products__nav ${isDrop ? `active` : `inactive`}`}>
                     {

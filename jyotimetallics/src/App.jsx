@@ -11,6 +11,7 @@ import Nav from './NavBar/Nav'
 
 import Home from './HomePage/Home'
 import About from './About/About'; 
+import Documents from "./Documents/Documents";
 import Products from './Products/Products';
 import Contact from './Contact/Contact';
 import ErrorPage from "./ERROR/ErrorPage";
@@ -59,7 +60,8 @@ function App() {
                             
                         <Switch>
                             <Route exact path="/" component={Home} />
-                            <Route exact path="/about" component={About} />
+                                <Route exact path="/about" component={About} />
+                                <Route exact path="/documents" component={Documents} />
                             <Route exact path="/products" component={Products} />
                             <Route exact path="/contact" component={Contact} />
                             
