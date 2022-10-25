@@ -38,6 +38,17 @@ const Contact = () => {
             <section id='contact'>
                 <Header Banner={"./Banner/Banner4.jpg"} text={"Contact Us"} lightText={true} />
 
+                {/* <div className=" contact__infoDiv">
+                    <div className="contact__info">
+                        <div className="contact__contents">
+                            <h1>
+                                Email us at:
+                            </h1>
+                            <h1>jyotimetallics</h1>
+                        </div>
+                    </div>
+                </div> */}
+
                 <div className="container contact__container">
                     <div className="contact__options">
                         <article className="contact__option">

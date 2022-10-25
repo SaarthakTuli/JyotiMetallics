@@ -67,7 +67,7 @@ function App() {
                             <Redirect to="/404" />
                             </Switch>
                             
-                        <Footer />
+                        <Footer style={{paddingTop: "10rem",}} />
                         
                         <Whatsapp />
                         <UPArrow />

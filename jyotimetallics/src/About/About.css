@@ -20,10 +20,24 @@
   align-items: center;
 }
 
+.about__imageBg {
+  height: 300px;
+  width: 300px;
+  border-radius: 1rem;
+  background-color: var(--color-primary);
+}
+
 .about__image {
   object-fit: cover;
   height: 300px;
   border-radius: 1rem;
+
+  transform: rotate(-10deg);
+  transition: var(--transition);
+}
+
+.about__image:hover {
+  transform: rotate(0);
 }
 
 .about__values {

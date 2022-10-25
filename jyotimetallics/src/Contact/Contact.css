@@ -1,3 +1,25 @@
+/* .contact__infoDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.contact__info {
+  width: 60%;
+  height: 400px;
+  background: var(--color-primary);
+
+  margin-bottom: 10rem;
+}
+
+.contact__contents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+} */
+
+/**/
 .container.contact__container {
   width: 58%;
   display: grid;
