@@ -52,7 +52,19 @@ li a {
 .nav__icon {
   display: none;
 }
+/* 
+.products__nav {
+  display: none;
+} */
 
+.products__links {
+  font-size: 18px;
+  padding: 1rem;
+  color: var(--color-white);
+  background-color: var(--color-primary);
+}
+
+/* ===================== (HANDHELD DEVICES) ==================== */
 @media (max-width: 768px) {
   .nav__toggle {
     display: none;

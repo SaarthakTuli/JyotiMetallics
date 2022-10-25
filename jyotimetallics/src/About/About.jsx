@@ -11,28 +11,33 @@ import Qualification from './Qualification';
 const vmv = [
   {
     id: 1,
-    title: "Vision",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia laborum pariatur eaque nihil doloribus aliquid enim soluta, id sit repellendus minima exercitationem aperiam esse fugit quam itaque quasi, suscipit similique!",
+    title: "Our Vision",
+    desc: "Becoming a supporter of manufacturers of rolling mill machines as well as one of leading providers of flat steel solutions. Our goal is to lead the industry in offering cutting-edge solutions with advanced materials by offering excellent management and service. Our goal is to maintain our business sustainability, personal development of our employees as a priority, by exceeding and meeting client expectations.",
     image: "./images/Vision.jpg",
   },
 
   {
     id: 2,
-    title: "Mission",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia laborum pariatur eaque nihil doloribus aliquid enim soluta, id sit repellendus minima exercitationem aperiam esse fugit quam itaque quasi, suscipit similique!",
+    title: "Our Mission",
+    desc: "Through a spectrum of continually evolving products and services, we aim to satisfy customers. We are a trustworthy business that honors its commitments to both internal and external clientele. We expand in a profitable and long-lasting manner. Through ongoing teamwork, professional advancement, and supplier development, we aim to benefit society and our suppliers' advance. Engineers with dedication, expertise, and the ability to think forward are in charge of the team. Management spends the time to attend the final commissioning of every project to strengthen their capacity for adaptive thinking",
     image: "./images/Mission.jpg",
   },
 
   {
     id: 3,
-    title: "Values",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia laborum pariatur eaque nihil doloribus aliquid enim soluta, id sit repellendus minima exercitationem aperiam esse fugit quam itaque quasi, suscipit similique!",
+    title: "Our Values",
+    desc: "Leadership, Focus on achievement and customer satisfaction. Our aim for Continuous Improvement and our team is Creativity and Innovation and believes in Teamwork. Creation of Value and Profitability Diversity and Dignity in the Workplace Corporate Ethics.",
     image: "./images/Values.jpg",
   },
 ];
 
 
 function About() {
+
+  function truncate(str, n) { 
+    return str?.length > n ? str.substr(0, n - 1) + "..." : str;
+  }
+
   return (
     <>
       <Header Banner={"./Banner/AboutBanner.jpeg"} text={"About Us"} lightText={true} />
@@ -67,7 +72,7 @@ function About() {
                 <Values
                   key={id}
                   title={title}
-                  desc={desc}
+                  desc={truncate(desc, 200)}
                   image={image}
                 />
               )

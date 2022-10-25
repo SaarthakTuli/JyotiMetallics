@@ -64,7 +64,7 @@ details = [
   },
   {
     id: 10,
-    name: "Iron Three Phase Exit Coil Car Assembly Machine",
+    name: "Exit Coil Car Assembly Machine",
     description:
       "We have carved a niche amongst the most trusted names in this business, engaged in offering a comprehensive range of Exit Coil Car Assembly Machine.",
     image: "images/larexitcoilcar.jpg",

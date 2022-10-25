@@ -5,6 +5,8 @@ import "./Nav.css"
 
 import Logo from '../assets/logo.png';
 
+import '../Details.js'
+
 
 function Nav() {
 
@@ -44,6 +46,17 @@ function Nav() {
                     </li>
                     <li>
                         <Link to="/products" onClick={() => setIsOpen(false)}>Products</Link>
+                        <div className='products__nav'>
+                    {
+                        details.map((product) => {
+                            const { id, name, description, image } = product;
+                            
+                            return (
+                                <h1 className='products__links'>{name}</h1>
+                            );
+                        })
+                    }
+                </div>
                     </li>
                     <li>
                         <Link to="/contact" onClick={() => setIsOpen(false)}>Contact Us</Link>
@@ -53,6 +66,8 @@ function Nav() {
                 <div className={`nav__icon `}>
                     <Hamburger toggled={isOpen} toggle={setIsOpen} />
                 </div>
+
+                
                 
             </div>
             

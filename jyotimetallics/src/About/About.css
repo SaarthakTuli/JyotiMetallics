@@ -48,7 +48,15 @@
 
 /* ============================== MEDIA QUERIES (MEDIUM DEVICES) ============================ */
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1024px) {
+  .about__intro {
+    grid-template-columns: 1fr;
+  }
+
+  .about__imageBg {
+    margin-bottom: 2rem;
+  }
+
   .about__values {
     grid-template-columns: 1fr 1fr;
     gap: 5%;
@@ -58,6 +66,14 @@
 /* ============================== MEDIA QUERIES (SMALL DEVICES) ============================ */
 
 @media screen and (max-width: 600px) {
+  .about__intro {
+    grid-template-columns: 1fr;
+  }
+
+  .about__imageBg {
+    margin-bottom: 2rem;
+  }
+
   .about__values {
     grid-template-columns: 1fr;
     gap: 2%;
