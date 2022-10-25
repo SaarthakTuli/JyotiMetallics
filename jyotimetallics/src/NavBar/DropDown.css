@@ -1,0 +1,20 @@
+.dropdown__main {
+  display: flex;
+  border: 2px solid red;
+}
+
+.dropdown__placeholder {
+  color: white;
+}
+
+.dropdown__menu {
+  font-size: 18px;
+  padding: 1rem;
+  color: var(--color-white);
+  background-color: var(--color-primary);
+}
+
+.dropdown__arrow {
+  color: white;
+  display: flex;
+}

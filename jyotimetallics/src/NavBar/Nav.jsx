@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Hamburger from 'hamburger-react'
+import DropDown from './DropDown'
 import { Link } from 'react-router-dom';
 import "./Nav.css"
 
@@ -27,6 +28,8 @@ function Nav() {
 
     const [isOpen, setIsOpen] = useState(false);
 
+    const [isDrop, setIsDrop] = useState(false);
+
     
 
     return (
@@ -45,14 +48,21 @@ function Nav() {
                         <Link to="/about" onClick={() => setIsOpen(false)}>About Us</Link>
                     </li>
                     <li>
-                        <Link to="/products" onClick={() => setIsOpen(false)}>Products</Link>
-                        <div className='products__nav'>
+                        <h1 className='products' onClick={() => setIsDrop(!isDrop) }>Products</h1>
+                        <div className={`products__nav ${isDrop ? `active` : `inactive`}`}>
                     {
                         details.map((product) => {
                             const { id, name, description, image } = product;
                             
                             return (
-                                <h1 className='products__links'>{name}</h1>
+                                <h1
+                                    key={id}
+                                    className='products__links'
+                                    onClick={() => {
+                                        setIsOpen(false);
+                                        setIsDrop(!isDrop);
+                                    }}>{name}
+                                </h1>
                             );
                         })
                     }
