@@ -1,0 +1,17 @@
+.counter__div {
+  max-width: 100%;
+  background-color: var(--color-primary);
+  border-radius: 1rem;
+  color: var(--color-white);
+  height: 150px;
+
+  text-align: center;
+
+  padding: 50px;
+}
+
+.counter__number {
+  display: block;
+  scale: 1.5;
+  padding-bottom: 10px;
+}

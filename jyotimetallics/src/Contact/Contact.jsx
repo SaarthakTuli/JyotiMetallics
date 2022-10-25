@@ -5,15 +5,7 @@ import { BsWhatsapp } from 'react-icons/bs'
 import emailjs from 'emailjs-com'
 
 import Header from '../Header/Header';
-import Map from '../Map/Map'
 import GoToTop from '../GoToTop'
-
-
-const location = {
-    address: '1600 Amphitheatre Parkway, Mountain View, california.',
-    lat: 37.42216,
-    lng: -122.08427,
-}
   
 
 
@@ -74,8 +66,6 @@ const Contact = () => {
                     </form>
                 </div>
             </section>
-            
-            <Map location={location} zoomLevel={17} />
 
             <GoToTop />
         </>

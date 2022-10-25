@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Hamburger from 'hamburger-react'
-import DropDown from './DropDown'
+import Scroll from 'react-scroll'
 import { Link } from 'react-router-dom';
 import "./Nav.css"
 
@@ -50,26 +50,34 @@ function Nav() {
                     <li>
                         <Link to="/documents" onClick={() => setIsOpen(false)}>Documents</Link>
                     </li>
-                    <li>
-                        <h1 className='products' onClick={() => setIsDrop(!isDrop) }>Products</h1>
+                    <li className='products__list'>
+                        <h1 className='products' onClick={() => setIsDrop(!isDrop)}>Products</h1>
+                        
                         <div className={`products__nav ${isDrop ? `active` : `inactive`}`}>
-                    {
-                        details.map((product) => {
-                            const { id, name, description, image } = product;
                             
-                            return (
-                                <h1
-                                    key={id}
-                                    className='products__links'
-                                    onClick={() => {
-                                        setIsOpen(false);
-                                        setIsDrop(!isDrop);
-                                    }}>{name}
-                                </h1>
-                            );
-                        })
-                    }
-                </div>
+                            <ul className='hamburger__lists'>{
+                                details.map((product) => {
+                                    const { id, name, description, image } = product;
+                                
+                                    return (
+                                        <li
+                                            key={id}
+                                            // className={`nav__links nav__toggle ${isOpen && `Open`}`}
+                                            className='products__links'
+                                            onClick={() => {
+                                                setIsOpen(false);
+                                                setIsDrop(!isDrop);
+                                            }}>{name}
+                                        </li>
+                                    );
+                                })
+                            }
+
+                                </ul>
+                            
+                        
+                        </div>
+
                     </li>
                     <li>
                         <Link to="/contact" onClick={() => setIsOpen(false)}>Contact Us</Link>

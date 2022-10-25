@@ -24,6 +24,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-y: scroll;
 }
 
 ::-webkit-scrollbar {
@@ -45,4 +46,9 @@ a {
   margin-top: 10rem;
 
   transform: scale(2);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
 }

@@ -6,6 +6,7 @@ import Values from './Values';
 import './About.css'
 import GoToTop from '../GoToTop';
 import Qualification from './Qualification';
+import CounterUp from './CounterUp';
 
 
 const vmv = [
@@ -59,31 +60,49 @@ function About() {
             <h1 className='about__description'>We provide you with personalized recommendations according to your needs with utmost sincerity and the best quality products that would withstand any workload. We do all of this, while also maintaining the most competitive rates.</h1>
             <Qualification />
           </div>
-
         </div>
+        
+        <div style={{marginTop: "10rem"}}>
 
-         <div className='about__values'>
-          {
-            vmv.map((prop) => {
-              
-              const { id, title, desc, image } = prop;
-              
-              return (
-                <Values
-                  key={id}
-                  title={title}
-                  desc={truncate(desc, 200)}
-                  image={image}
-                />
-              )
+          <div className='center'>
+            <h1 style={{ fontSize: "36px", paddingBottom: "2rem", textAlign: "center" }}>Our Accomplishments</h1>
+          </div>
           
-            })
-          }
-        </div> 
+          <div className='about__counter'>
+            <CounterUp total={1000} text={"Satisfied Customers"} />
+            <CounterUp total={100} text={"Projects Completed"} />
+          </div>
+        </div>
+        
+
+        <div className="about__valuesDiv" style={{marginTop: "10rem"}}>
+
+          <div className='center'>
+            <h1 style={{fontSize: "36px", paddingBottom: "2rem"}}>Our Ideals</h1>
+          </div>
+
+          <div className='about__values'>
+            {
+              vmv.map((prop) => {
+              
+                const { id, title, desc, image } = prop;
+              
+                return (
+                  <Values
+                    key={id}
+                    title={title}
+                    desc={truncate(desc, 200)}
+                    image={image}
+                  />
+                );
+              })
+            }
+          </div>
+        </div>
       </div>
 
       <GoToTop />
-      </>
+    </>
     
   );
 }

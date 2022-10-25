@@ -55,19 +55,18 @@ function App() {
                     :
 
                     <div>
-                            
                         <Nav />
                             
                         <Switch>
                             <Route exact path="/" component={Home} />
-                                <Route exact path="/about" component={About} />
-                                <Route exact path="/documents" component={Documents} />
+                            <Route exact path="/about" component={About} />
+                            <Route exact path="/documents" component={Documents} />
                             <Route exact path="/products" component={Products} />
                             <Route exact path="/contact" component={Contact} />
                             
                             <Route exact path ="/404" component={ErrorPage} />
                             <Redirect to="/404" />
-                            </Switch>
+                        </Switch>
                             
                         <Footer style={{paddingTop: "10rem",}} />
                         

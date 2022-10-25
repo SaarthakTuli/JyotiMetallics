@@ -1,8 +1,6 @@
 .values__container {
   border: 5px solid var(--color-primary);
   border-radius: 1rem;
-
-  margin-top: 10rem;
 }
 
 .values__contents {

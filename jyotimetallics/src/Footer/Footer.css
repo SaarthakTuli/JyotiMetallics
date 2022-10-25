@@ -1,5 +1,90 @@
 .footer {
-  margin-top: 10rem;
-  height: 700px;
+  padding-bottom: 5rem;
   background-color: var(--color-primary);
+}
+
+.footer__companyName {
+  font-size: 36px;
+}
+
+.footer__div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  color: var(--color-white);
+
+  margin-top: 10rem;
+  height: 100%;
+  background-color: var(--color-primary);
+
+  padding-top: 5rem;
+}
+
+.footer__company {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__logo {
+  scale: 0.7;
+  object-fit: contain;
+}
+
+.footer__linksDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__title {
+  font-size: 36px;
+  margin-bottom: 2rem;
+}
+
+.footer__links {
+  font-size: 22px;
+  color: var(--color-light);
+  padding-left: 1rem;
+}
+
+.footer__icon {
+  scale: 1.5;
+  color: var(--color-light);
+}
+
+.footer__contactDiv {
+  display: flex;
+  margin-bottom: 1.3rem;
+}
+
+/* ============================== MEDIA QUERIES (MEDIUM DEVICES) ============================ */
+
+@media screen and (max-width: 1024px) {
+  .footer__div {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* ============================== MEDIA QUERIES (SMALL DEVICES) ============================ */
+
+@media screen and (max-width: 600px) {
+  .footer__div {
+    grid-template-columns: 1fr;
+    gap: 5%;
+  }
+
+  .footer__title {
+    font-size: 22px;
+  }
+
+  .footer__companyName {
+    font-size: 22px;
+  }
+
+  .footer__linksDiv {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 5rem;
+  }
 }
