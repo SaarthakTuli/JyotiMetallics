@@ -3,6 +3,7 @@ import './ProductBox'
 
 import '../../Details.js'
 import ProductBox from './ProductBox';
+import { Link } from 'react-router-dom';
 
 
 
@@ -12,16 +13,19 @@ function Products() {
             marginTop: "5rem",
             marginBottom: "15rem"
         }}>
-            {details.map((product) => {
+            {
+            details.map((product) => {
                 
-                const {id, name, description, image} = product;
+                const { id, name, description, image } = product;
                 return (
-                    <ProductBox
+                    <Link to={`/products${id}`}>
+                        <ProductBox
                         key={id}
                         name={name}
                         description={description}
                         image={image}
-                    />
+                        />
+                    </Link>
 
               )  
             })

@@ -27,6 +27,9 @@ import './index.css'
 import GoToTop from "./GoToTop";
 
 
+import Product1 from "./Products/Items/CR_HR_Coil_Slitting_Line/Product1";
+
+
 function App() {
     const [loading, setLoading] = useState(false);
 
@@ -63,6 +66,8 @@ function App() {
                             <Route exact path="/documents" component={Documents} />
                             <Route exact path="/products" component={Products} />
                             <Route exact path="/contact" component={Contact} />
+                                
+                            <Route exact path="/products1" component={Product1} />
                             
                             <Route exact path ="/404" component={ErrorPage} />
                             <Redirect to="/404" />

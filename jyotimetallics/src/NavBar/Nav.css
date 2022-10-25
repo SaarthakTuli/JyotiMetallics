@@ -80,8 +80,10 @@ li a {
 }
 
 .products__links {
+  display: flex;
+  justify-content: flex-start;
+
   font-size: 16px;
-  padding: 1rem;
   color: var(--color-white);
   background-color: var(--color-primary);
 

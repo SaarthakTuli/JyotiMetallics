@@ -60,22 +60,13 @@ function Nav() {
                                     const { id, name, description, image } = product;
                                 
                                     return (
-                                        <li
-                                            key={id}
-                                            // className={`nav__links nav__toggle ${isOpen && `Open`}`}
-                                            className='products__links'
-                                            onClick={() => {
-                                                setIsOpen(false);
-                                                setIsDrop(!isDrop);
-                                            }}>{name}
+                                        <li key={id} className='products__links'>
+                                            <Link to={`/products${id}`} onClick={() => {setIsOpen(false); setIsDrop(!isDrop);}}>{name}</Link>
                                         </li>
                                     );
                                 })
                             }
-
-                                </ul>
-                            
-                        
+                            </ul>
                         </div>
 
                     </li>
