@@ -12,7 +12,6 @@ import Nav from './NavBar/Nav'
 import Home from './HomePage/Home'
 import About from './About/About'; 
 import Documents from "./Documents/Documents";
-import Products from './Products/Products';
 import Contact from './Contact/Contact';
 import ErrorPage from "./ERROR/ErrorPage";
 
@@ -27,7 +26,7 @@ import './index.css'
 import GoToTop from "./GoToTop";
 
 
-import Product1 from "./Products/Items/CR_HR_Coil_Slitting_Line/Product1";
+import Product from "./Products/Product";
 
 
 function App() {
@@ -64,10 +63,22 @@ function App() {
                             <Route exact path="/" component={Home} />
                             <Route exact path="/about" component={About} />
                             <Route exact path="/documents" component={Documents} />
-                            <Route exact path="/products" component={Products} />
                             <Route exact path="/contact" component={Contact} />
                                 
-                            <Route exact path="/products1" component={Product1} />
+                            <Route exact path="/products1" component={Product} />
+                            <Route exact path="/products2" component={Product} />
+                             <Route exact path="/products3" component={Product} />
+                            <Route exact path="/products4" component={Product} />
+                            <Route exact path="/products5" component={Product} />
+                            <Route exact path="/products6" component={Product} />
+                            <Route exact path="/products7" component={Product} />
+                            <Route exact path="/products8" component={Product} />
+                            <Route exact path="/products9" component={Product} />
+                            <Route exact path="/products10" component={Product} />
+                            <Route exact path="/products11" component={Product} />
+                            <Route exact path="/products12" component={Product} />
+                            <Route exact path="/products13" component={Product} />
+                            <Route exact path="/products14" component={Product} />
                             
                             <Route exact path ="/404" component={ErrorPage} />
                             <Redirect to="/404" />

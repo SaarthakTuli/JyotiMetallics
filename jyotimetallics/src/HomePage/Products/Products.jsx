@@ -14,21 +14,25 @@ function Products() {
             marginBottom: "15rem"
         }}>
             {
-            details.map((product) => {
+                details.map((product) => {
                 
-                const { id, name, description, image } = product;
-                return (
-                    <Link to={`/products${id}`}>
-                        <ProductBox
-                        key={id}
-                        name={name}
-                        description={description}
-                        image={image}
-                        />
-                    </Link>
+                    const { id, name, description, image } = product;
+                    return (
+                        <Link to={{ pathname: `/products${id}`, params: { id: `${id}` } }}>
+                            <ProductBox
+                                key={id}
+                                name={name}
+                                description={description}
+                                image={image}
+                            />
+                        </Link>
+                                            
+                        // <Link to={`/products${id}`}>
+                        
+                        // </Link>
 
-              )  
-            })
+                    )
+                })
             }
         </div>
     );

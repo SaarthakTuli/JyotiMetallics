@@ -61,7 +61,8 @@ function Nav() {
                                 
                                     return (
                                         <li key={id} className='products__links'>
-                                            <Link to={`/products${id}`} onClick={() => {setIsOpen(false); setIsDrop(!isDrop);}}>{name}</Link>
+                                            <Link to={{ pathname: `/products${id}`, params: { id: `${id}` } }} onClick={() => { setIsOpen(false); setIsDrop(!isDrop); }}>{name}</Link>
+                                            
                                         </li>
                                     );
                                 })
