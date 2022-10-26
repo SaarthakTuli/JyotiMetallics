@@ -7,6 +7,7 @@ import "./Nav.css"
 import Logo from '../assets/logo.png';
 
 import '../Details.js'
+import { BsBorder } from 'react-icons/bs';
 
 
 function Nav() {
@@ -30,10 +31,8 @@ function Nav() {
 
     const [isDrop, setIsDrop] = useState(false);
 
-    
-
     return (
-        <> 
+        <div> 
             <div className={ `nav ${show && `nav__black`} ${isOpen && `bg__color`}`}>
                 <img
                     src={Logo}
@@ -84,7 +83,7 @@ function Nav() {
                 
             </div>
             
-        </>
+        </div>
         
     );
 }

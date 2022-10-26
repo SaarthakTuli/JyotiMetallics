@@ -45,6 +45,29 @@
   color: var(--color-white);
 }
 
+.image__animation {
+  transition: var(--transition);
+}
+
+.image__animation:hover {
+  transform: rotate(10deg);
+}
+
+/* .zoom {
+  z-index: 1;
+  transform: scale(3);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transform: 2s infinite ease-in;
+}
+
+.zoomImg {
+  transform: rotate(10deg);
+} */
+
 /* ============= (Conditional For each Page's Images) ===============)*/
 
 /* HR/CR Cut Slitting Line */
@@ -235,4 +258,41 @@
   border-radius: 1rem;
   height: 300px;
   rotate: -10deg;
+}
+
+/* ============================== MEDIA QUERIES (MEDIUM DEVICES) ============================ */
+
+@media screen and (max-width: 1024px) {
+  .div__responsive {
+    transform: scale(0.8);
+  }
+
+  .product {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ============================== MEDIA QUERIES (SMALL DEVICES) ============================ */
+
+@media screen and (max-width: 600px) {
+  .div__responsive {
+    transform: scale(0.6);
+    margin: -2rem;
+  }
+
+  .template__details {
+    text-align: center;
+  }
+
+  .template__name {
+    font-size: 22px;
+  }
+
+  .template__description {
+    font-size: 16px;
+  }
+
+  .product {
+    grid-template-columns: 1fr;
+  }
 }

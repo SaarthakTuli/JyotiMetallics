@@ -85,6 +85,8 @@
   .footer__linksDiv {
     display: flex;
     justify-content: flex-start;
-    margin-left: 5rem;
+    margin-left: 2rem;
+
+    scale: 0.8;
   }
 }

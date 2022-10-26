@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './ProductTemplate.css'
 
 import '../Details.js'
@@ -10,8 +10,10 @@ import PinchCumLeveller from './Additional/PinchCumLeveller';
 import DeflectorCumPinchRoll from './Additional/DeflectorCumPinchRoll';
 
 
-
 function ProductTemplate(props) {
+
+    const [isZoom, setIsZoom] = useState(false);
+
     return (
         <>
         
@@ -30,11 +32,12 @@ function ProductTemplate(props) {
                             <div className="template__main">
                                 <div className='product'>
                                     <div className='center' style={{ alignItems: "center" }} >
-                                        <div className={`div${id} ${isPortrait && `portraitDiv`}`}>
+                                        <div className={`${isZoom && `zoom`} div__responsive div${id} ${isPortrait && `portraitDiv`}`} onClick={()=> setIsZoom(!isZoom)}>
                                             <img
                                                 alt="1"
                                                 src={image}
-                                                className={`image${id} ${isPortrait && `portrait`}`} />
+                                                className={`image__animation image${id} ${isPortrait && `portrait`} ${isZoom && `zoomImg`} `}
+                                            />
                                         </div>
                                     </div>
                                 

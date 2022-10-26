@@ -27,6 +27,7 @@ import GoToTop from "./GoToTop";
 
 
 import Product from "./Products/Product";
+import ScrollBar from "./ScrollBar/ScrollBar";
 
 
 function App() {
@@ -57,8 +58,10 @@ function App() {
                     :
 
                     <div>
-                        <Nav />
+                            <Nav />
                             
+                            <ScrollBar />
+
                         <Switch>
                             <Route exact path="/" component={Home} />
                             <Route exact path="/about" component={About} />

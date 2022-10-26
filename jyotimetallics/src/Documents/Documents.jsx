@@ -25,40 +25,42 @@ function Documents() {
         );
     
 	return (
-		<>
-			<Header banner={'./Banner/Banner4.jpg'} text={"Documents"} lightText={false} />
-			<div className='center'>
-				<h1 className='documents__title'>Catalogue</h1>
-			</div>
-            
-			<div className='documents__div'>
-				<div className="center">
-					<Document
-						file={PDF}
-						onLoadSuccess={onDocumentLoadSuccess}
-						className="documents__viewer"
-					>
-						<Page pageNumber={pageNumber} />
-					</Document>
+		<div>
+			<Header banner={"./Banner/AboutBanner.jpeg"} text={"Documents"} lightText={false} />
+			
+			<div>
+				<div className='center'>
+					<h1 className='documents__title'>Catalogue</h1>
 				</div>
             
-				<div>
-					<div className='center'>
-						Page {pageNumber} of {numPages}
+				<div className='documents__div'>
+					<div className="center">
+						<Document
+							file={PDF}
+							onLoadSuccess={onDocumentLoadSuccess}
+							className="documents__viewer">
+							<Page pageNumber={pageNumber} />
+						</Document>
 					</div>
-					<div className='center'>
-						<button className='documents__btn' onClick={goToPrevPage}>{<MdKeyboardArrowLeft />} Prev</button>
-						<button className='documents__btn' onClick={goToNextPage}>Next  {<MdKeyboardArrowRight />}</button>
-					</div>
-					<div className='center'>
-						<a href={PDF} download className='documents__download'>Download</a>
-					</div>
+            
+					<div>
+						<div className='center'>
+							Page {pageNumber} of {numPages}
+						</div>
+						<div className='center'>
+							<button className='documents__btn' onClick={goToPrevPage}>{<MdKeyboardArrowLeft />} Prev</button>
+							<button className='documents__btn' onClick={goToNextPage}>Next  {<MdKeyboardArrowRight />}</button>
+						</div>
+						<div className='center'>
+							<a href={PDF} download className='documents__download'>Download</a>
+						</div>
 					
-				</div>
+					</div>
           
+				</div>
 			</div>
-		</>
-	);
+		</div>
+	)
 }
 
 export default Documents

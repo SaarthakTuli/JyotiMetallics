@@ -22,7 +22,7 @@ function Footer() {
             <h1 className='footer__companyName'>Jyotimetallics India Pvt. Ltd.</h1>
           </div>
         </div>
-        {/* className='center' style={{ alignItems: "center" }} */}
+
         <div className='footer__linksDiv'>
           <div>
             <h1 className='footer__title' style={{ marginBottom: "1.3rem" }}>Important Links</h1>
