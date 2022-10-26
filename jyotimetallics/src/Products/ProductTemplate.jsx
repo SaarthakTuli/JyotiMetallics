@@ -5,9 +5,16 @@ import '../Details.js'
 import { Link } from 'react-router-dom';
 import Uncoiler from './Additional/Uncoiler';
 import HiLeveller from './Additional/HiLeveller';
+import CoilCar from './Additional/CoilCar';
+import PinchCumLeveller from './Additional/PinchCumLeveller';
+import DeflectorCumPinchRoll from './Additional/DeflectorCumPinchRoll';
+
+
 
 function ProductTemplate(props) {
     return (
+        <>
+        
         <div className='center container'>
             {
                 details.map((item) => {
@@ -45,6 +52,14 @@ function ProductTemplate(props) {
                                         (id == 14 && <Uncoiler />)
                                         ||
                                         (id == 8 && <HiLeveller />)
+                                        ||
+                                        (id == 9 && <CoilCar />)
+                                        ||
+                                        (id == 10 && <CoilCar />)
+                                        ||
+                                        (id == 13 && <PinchCumLeveller />)
+                                        ||
+                                        (id == 12 && <DeflectorCumPinchRoll />)
                                     }
                                 </div>
 
@@ -56,7 +71,8 @@ function ProductTemplate(props) {
                     } // if block ended
                 })
             }
-        </div>
+            </div>
+            </>
     );
 }
 
