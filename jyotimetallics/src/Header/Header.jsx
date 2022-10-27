@@ -10,7 +10,7 @@ function Header({ Banner, text, lightText }) {
         backgroundSize: "cover",
         background: `url(${Banner}), linear-gradient(#111, #000)`,
         backgroundPosition: "center center",
-        backgroundRepeat: 'no-repeat'
+        // backgroundRepeat: 'no-repeat'
       }}>
       <div className='banner__contents'>
         <h1 className={`banner__title ${lightText && `light`}`}>{text}</h1>

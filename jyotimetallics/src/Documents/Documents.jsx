@@ -7,6 +7,8 @@ import PDF from '../assets/CSCI.pdf'
 
 import Header from '../Header/Header'
 
+
+
 function Documents() {
 
     const [numPages, setNumPages] = useState(null);
@@ -26,7 +28,20 @@ function Documents() {
     
 	return (
 		<div>
-			<Header banner={"./Banner/AboutBanner.jpeg"} text={"Documents"} lightText={false} />
+			<Header banner={"Banner/DocBanner.jpg"} text={"Documents"} lightText={false} />
+
+			<div>
+				<img
+					src='Banner/DocBanner.jpg'
+					style={{
+						position: "absolute",
+						top: "0",
+						width: "100%",
+						height: "448px",
+						objectFit: "cover",
+					}}
+				/>
+			</div>
 			
 			<div>
 				<div className='center'>

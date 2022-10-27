@@ -1,6 +1,7 @@
 {
   "name": "jyotimetallics",
   "version": "0.1.0",
+  "homepage": "http://www.jyotimetallicsindia.com",
   "private": true,
   "scripts": {
     "start": "react-scripts start",
@@ -27,10 +28,11 @@
     "react-router-dom": "^5.2.0",
     "react-scroll": "^1.8.8",
     "react-scroll-trigger": "^0.6.14",
+    "serve": "^6.5.8",
     "styled-components": "^5.3.6"
   },
   "devDependencies": {
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^0.9.5"
   },
   "browserslist": {
     "production": [
