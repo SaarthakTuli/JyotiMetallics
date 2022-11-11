@@ -15,8 +15,6 @@ import Documents from "./Documents/Documents";
 import Contact from './Contact/Contact';
 import ErrorPage from "./ERROR/ErrorPage";
 
-import Footer from "./Footer/Footer";
-
 import Whatsapp from './Whatsapp/Whatsapp';
 import UPArrow from "./UpArrow/UPArrow";
 
@@ -87,7 +85,7 @@ function App() {
                             <Redirect to="/404" />
                         </Switch>
                             
-                        <Footer style={{paddingTop: "10rem",}} />
+                        
                         
                         <Whatsapp />
                         <UPArrow />

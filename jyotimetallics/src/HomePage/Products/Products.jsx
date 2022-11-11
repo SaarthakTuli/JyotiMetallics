@@ -9,10 +9,7 @@ import { Link } from 'react-router-dom';
 
 function Products() {
     return (
-        <div className='container product__container' style={{
-            marginTop: "5rem",
-            marginBottom: "15rem"
-        }}>
+        <div className='container product__container' style={{marginTop: "10rem", marginBottom: "15rem"}}>
             {
                 details.map((product) => {
                 
@@ -26,15 +23,12 @@ function Products() {
                                 image={image}
                             />
                         </Link>
-                                            
-                        // <Link to={`/products${id}`}>
-                        
-                        // </Link>
-
                     )
                 })
             }
         </div>
+
+        
     );
 }
 

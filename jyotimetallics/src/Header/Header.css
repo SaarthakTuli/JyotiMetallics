@@ -19,7 +19,6 @@
 .banner__title {
   font-size: 70px;
   color: var(--color-black);
-  z-index: 1000;
 }
 
 /* .banner__button {

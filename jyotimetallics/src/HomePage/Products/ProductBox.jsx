@@ -22,9 +22,9 @@ function ProductBox({ name, description, image }) {
 
       <div className='product__innerDiv' id="overlay">
         <div className='product__contents'>
-          <h1 className='product__title'>{name}</h1>
-          <h1 className='product__description'>{truncate(description, 150)}</h1>
-          <a>Know More</a>
+          <h1 className='product__title max__linesTitle'>{name}</h1>
+          <h1 className='product__description max__linesContent'>{description}</h1>
+          <a className='center'>Know More</a>
         </div>
       </div>
     </div>

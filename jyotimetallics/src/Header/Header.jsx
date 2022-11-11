@@ -8,7 +8,7 @@ function Header({ Banner, text, lightText }) {
       className='banner'
       style={{
         backgroundSize: "cover",
-        background: `url(${Banner}), linear-gradient(#111, #000)`,
+        background: `url(${Banner})`,
         backgroundPosition: "center center",
         // backgroundRepeat: 'no-repeat'
       }}>

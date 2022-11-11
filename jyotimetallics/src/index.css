@@ -51,3 +51,19 @@ a {
   display: flex;
   justify-content: center;
 }
+
+.max__linesTitle {
+  display: block; /* or inline-block */
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow: hidden;
+  max-height: 1.3em;
+}
+
+.max__linesContent {
+  display: block; /* or inline-block */
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow: hidden;
+  max-height: 3.6em;
+}

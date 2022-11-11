@@ -1,5 +1,6 @@
 .homeAbout {
   text-align: center;
+  margin-bottom: 10rem;
 }
 
 .homeAbout__title {
@@ -13,6 +14,23 @@
   color: var(--color-black);
   font-weight: 500;
   font-size: 28px;
+}
+
+.about__btn {
+  padding: 1rem 3rem 1rem 3rem;
+  border-radius: 5rem;
+  margin-top: 2rem;
+
+  font-size: 22px;
+
+  color: var(--color-white);
+  background-color: var(--color-primary);
+}
+
+.about__btn:hover {
+  color: var(--color-black);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-primary);
 }
 
 /* ============================== MEDIA QUERIES (MEDIUM DEVICES) ============================ */

@@ -46,9 +46,9 @@ function Nav() {
                     <li>
                         <Link to="/about" onClick={() => setIsOpen(false)}>About Us</Link>
                     </li>
-                    <li>
+                    {/* <li>
                         <Link to="/documents" onClick={() => setIsOpen(false)}>Documents</Link>
-                    </li>
+                    </li> */}
                     <li className='products__list'>
                         <h1 className='products' onClick={() => setIsDrop(!isDrop)}>Products</h1>
                         

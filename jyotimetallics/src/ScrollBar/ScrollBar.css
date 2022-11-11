@@ -25,4 +25,8 @@
   .scroll__image {
     display: none;
   }
+
+  .chain__image {
+    display: none;
+  }
 }

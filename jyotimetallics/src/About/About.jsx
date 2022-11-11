@@ -2,6 +2,7 @@ import React from 'react'
 
 import Header from '../Header/Header';
 import Values from './Values';
+import Footer from '../Footer/Footer'
 
 import './About.css'
 import GoToTop from '../GoToTop';
@@ -70,7 +71,7 @@ function About() {
           
           <div className='about__counter'>
             <CounterUp total={1000} text={"Satisfied Customers"} />
-            <CounterUp total={100} text={"Projects Completed"} />
+            <CounterUp total={60} text={"Projects Completed"} />
           </div>
         </div>
         
@@ -100,6 +101,8 @@ function About() {
           </div>
         </div>
       </div>
+
+      <Footer style={{paddingTop: "10rem",}} page={false} />
 
       <GoToTop />
     </>

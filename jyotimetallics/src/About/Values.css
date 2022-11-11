@@ -15,7 +15,10 @@
 .values__image {
   object-fit: cover;
   height: 200px;
+  margin-bottom: -5px;
   width: 100%;
+
+  border-radius: 5px;
 }
 
 .values__title {

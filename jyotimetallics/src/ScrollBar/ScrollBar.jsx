@@ -157,6 +157,80 @@ function ScrollBar() {
                         top: `${top + (400 * 11)}px`
                     }}
                 />
+
+                <img
+                    alt="chain"
+                    src="./images/chain.png"
+                    className='chain__image'
+                    style={{
+                        top: `${top + (400 * 12)}px`
+                    }}
+                />
+
+                <img
+                    alt="chain"
+                    src="./images/chain.png"
+                    className='chain__image'
+                    style={{
+                        top: `${top + (400 * 13)}px`
+                    }}
+                />
+
+                <img
+                    alt="chain"
+                    src="./images/chain.png"
+                    className='chain__image'
+                    style={{
+                        top: `${top + (400 * 14)}px`
+                    }}
+                />
+
+                <img
+                    alt="chain"
+                    src="./images/chain.png"
+                    className='chain__image'
+                    style={{
+                        top: `${top + (400 * 15)}px`
+                    }}
+                />
+
+                <img
+                    alt="chain"
+                    src="./images/chain.png"
+                    className='chain__image'
+                    style={{
+                        top: `${top + (400 * 16)}px`
+                    }}
+                />
+
+                <img
+                    alt="chain"
+                    src="./images/chain.png"
+                    className='chain__image'
+                    style={{
+                        top: `${top + (400 * 17)}px`
+                    }}
+                />
+
+                <img
+                    alt="chain"
+                    src="./images/chain.png"
+                    className='chain__image'
+                    style={{
+                        top: `${top + (400 * 18)}px`
+                    }}
+                />
+
+                <img
+                    alt="chain"
+                    src="./images/chain.png"
+                    className='chain__image'
+                    style={{
+                        top: `${top + (400 * 19)}px`,
+                        border: '2px solid red'
+                    }}
+                />
+                
                 
             </div>
         </div>
