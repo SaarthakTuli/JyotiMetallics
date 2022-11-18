@@ -8,7 +8,7 @@ import Logo from "./assets/logo.png";
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <Favicon url={Logo} /> */}
+    <Favicon url={Logo} />
     <App />
   </React.StrictMode>,
   document.querySelector("#root")

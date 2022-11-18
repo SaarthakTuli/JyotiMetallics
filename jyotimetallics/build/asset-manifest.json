@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.9f561fe2.css",
-    "main.js": "/static/js/main.74714bf6.js",
+    "main.css": "/static/css/main.30f62196.css",
+    "main.js": "/static/js/main.e13ff8db.js",
     "pdf.worker.js": "/fba171de7bad31878d85d80a4083a09d.js",
     "static/media/CSCI.pdf": "/static/media/CSCI.6b4e112fb431b85924f4.pdf",
     "static/media/logo.png": "/static/media/logo.846698476c3b99c47ec6.png",
     "index.html": "/index.html",
-    "main.9f561fe2.css.map": "/static/css/main.9f561fe2.css.map",
-    "main.74714bf6.js.map": "/static/js/main.74714bf6.js.map"
+    "main.30f62196.css.map": "/static/css/main.30f62196.css.map",
+    "main.e13ff8db.js.map": "/static/js/main.e13ff8db.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f561fe2.css",
-    "static/js/main.74714bf6.js"
+    "static/css/main.30f62196.css",
+    "static/js/main.e13ff8db.js"
   ]
 }

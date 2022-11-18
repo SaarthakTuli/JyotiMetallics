@@ -36,10 +36,6 @@
   transition: var(--transition);
 }
 
-.about__image:hover {
-  transform: rotate(0);
-}
-
 .about__values {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;

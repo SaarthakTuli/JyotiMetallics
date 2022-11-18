@@ -14,21 +14,21 @@ const vmv = [
   {
     id: 1,
     title: "Our Vision",
-    desc: "Becoming a supporter of manufacturers of rolling mill machines as well as one of leading providers of flat steel solutions. Our goal is to lead the industry in offering cutting-edge solutions with advanced materials and also by offering excellent management and services.",
+    desc: "With our products, We intend to provide support to the manufacturers of Rolling Mill Machines and to become the leading providers of flat-steel solutions. We aim to lead the industry by offering quality-services adn expert suggestions as well as through our cutting-edge tech solutions.",
     image: "./images/Vision.jpg",
   },
 
   {
     id: 2,
     title: "Our Mission",
-    desc: "Through a spectrum of continually evolving products and services, we aim to satisfy customers. We are a trustworthy business that honors its commitments to both internal and external clientele. We expand in a profitable and long-lasting manner. Through ongoing teamwork, professional advancement, and supplier development, we aim to benefit society and our suppliers' advance. Engineers with dedication, expertise, and the ability to think forward are in charge of the team. Management spends the time to attend the final commissioning of every project to strengthen their capacity for adaptive thinking",
+    desc: "We aim to maximise customer satisfaction by providing dynamic products and services. The fulfilment of commitments to both internal and external clientele has ensured our status as a trustworthy organisation. Considering supplier development on our way to benefit society. ",
     image: "./images/Mission.jpg",
   },
 
   {
     id: 3,
     title: "Our Values",
-    desc: "Leadership, Focus on achievement and customer satisfaction. Our aim for Continuous Improvement and our team is Creativity and Innovation and believes in Teamwork. Creation of Value and Profitability Diversity and Dignity in the Workplace Corporate Ethics.",
+    desc: "Diversity, Dignity, Innovation: An amalgamation of these qualities with teamwork, leadership and creativity is used to achieve customer satisfaction. Our values can also be summarised by 3C's: Creation of Value, Continuous Improvement and Corporate Ethics.",
     image: "./images/Values.jpg",
   },
 ];

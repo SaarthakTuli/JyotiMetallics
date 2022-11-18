@@ -81,8 +81,7 @@ li a {
 
 .active {
   display: block;
-  height: 300px;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 .inactive {
