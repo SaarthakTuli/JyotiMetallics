@@ -37,6 +37,7 @@ function Nav() {
                 <img
                     src={Logo}
                     alt="logo"
+                    className='logo'
                 />
             
                 <ul className={`nav__links nav__toggle ${isOpen && `Open`}`}>

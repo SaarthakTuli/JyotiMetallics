@@ -12,7 +12,7 @@ function Values({ title, desc, image}) {
 
       <div className="values__contents">
         <h1 className='values__title'>{ title }</h1>
-        <h1 className='values__description max__linesContent' style={{maxHeight: '8em'}}>{ desc }</h1>
+        <h1 className='values__description max__linesContent' style={{maxHeight: '11.5em'}}>{ desc }</h1>
       </div>
           
     </div>

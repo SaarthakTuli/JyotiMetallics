@@ -21,7 +21,7 @@ details = [
     id: 3,
     name: "Pickling Line",
     description:
-      "The metal surface may contain contaminants that may affect future use or further treatment of the product. To remove these impurities, carbon steel with an alloy content of 6% or less is soaked in hydrochloric acid or sulfuric acid. Steels with a high alloy content use other acids (such as nitric acid and phosphoric acid) and must be pickled in two steps. Pickling lines usually follow the hot rolling section of metal manufacturing. As the coiled metal leaves the mill, it is unwound and passes through a series of tanks filled with pickled acid and rinse tanks. If necessary, it is further processed in a cold rolling mill.(Devander Ji will provide pics).",
+      "The metal surface may contain contaminants that may affect future use or further treatment of the product. To remove these impurities, carbon steel with an alloy content of 6% or less is soaked in hydrochloric acid or sulfuric acid. Steels with a high alloy content use other acids (such as nitric acid and phosphoric acid) and must be pickled in two steps. Pickling lines usually follow the hot rolling section of metal manufacturing. As the coiled metal leaves the mill, it is unwound and passes through a series of tanks filled with pickled acid and rinse tanks. If necessary, it is further processed in a cold rolling mill.",
     image: "images/PicklingLine.jpg",
     isPortrait: false,
     additional: false,

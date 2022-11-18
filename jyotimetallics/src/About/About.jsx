@@ -14,7 +14,7 @@ const vmv = [
   {
     id: 1,
     title: "Our Vision",
-    desc: "Becoming a supporter of manufacturers of rolling mill machines as well as one of leading providers of flat steel solutions. Our goal is to lead the industry in offering cutting-edge solutions with advanced materials by offering excellent management and service. Our goal is to maintain our business sustainability, personal development of our employees as a priority, by exceeding and meeting client expectations.",
+    desc: "Becoming a supporter of manufacturers of rolling mill machines as well as one of leading providers of flat steel solutions. Our goal is to lead the industry in offering cutting-edge solutions with advanced materials and also by offering excellent management and services.",
     image: "./images/Vision.jpg",
   },
 
@@ -92,7 +92,7 @@ function About() {
                   <Values
                     key={id}
                     title={title}
-                    desc={truncate(desc, 200)}
+                    desc={truncate(desc, 300)}
                     image={image}
                   />
                 );

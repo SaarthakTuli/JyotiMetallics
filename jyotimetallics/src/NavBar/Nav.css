@@ -2,6 +2,11 @@ li {
   list-style: none;
 }
 
+.logo {
+  object-fit: contain;
+  width: 100px;
+}
+
 .nav {
   display: flex;
   position: fixed;
@@ -108,6 +113,10 @@ li a {
 @media (max-width: 768px) {
   .nav__toggle {
     display: none;
+  }
+
+  .logo {
+    width: 48px;
   }
 
   .nav__icon {
