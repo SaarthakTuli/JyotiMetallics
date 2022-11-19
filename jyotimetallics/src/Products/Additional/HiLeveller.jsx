@@ -3,7 +3,7 @@ import './table.css'
 
 function HiLeveller() {
   return (
-    <div className='center container' style={{overflow: "scroll"}}>
+    <div className='center container' style={{overflow: "visible"}}>
       <div>
         <h1>Product Specification</h1>
         <table className='styled__table'>

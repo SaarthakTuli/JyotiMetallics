@@ -10,7 +10,7 @@ import Footer from '../Footer/Footer'
   
 
 
-const Contact = () => {
+const Contact = ({Banner}) => {
     const form = useRef();
 
     const sendEmail = (e) => {
@@ -29,7 +29,7 @@ const Contact = () => {
     return (
         <>
             <section id='contact'>
-                <Header Banner={"./Banner/Banner4.jpg"} text={"Contact Us"} lightText={true} />
+                <Header Banner={Banner} text={"Contact Us"} lightText={true} />
 
                 {/* <div className=" contact__infoDiv">
                     <div className="contact__info">

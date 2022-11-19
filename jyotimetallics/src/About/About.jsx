@@ -34,7 +34,7 @@ const vmv = [
 ];
 
 
-function About() {
+function About({Banner}) {
 
   function truncate(str, n) { 
     return str?.length > n ? str.substr(0, n - 1) + "..." : str;
@@ -42,7 +42,7 @@ function About() {
 
   return (
     <>
-      <Header Banner={"./Banner/AboutBanner.jpeg"} text={"About Us"} lightText={true} />
+      <Header Banner={Banner} text={"About Us"} lightText={true} />
       <div className='container'>
 
         <div className='about__intro'>
@@ -64,7 +64,6 @@ function About() {
         </div>
         
         <div style={{marginTop: "10rem"}}>
-
           <div className='center'>
             <h1 style={{ fontSize: "36px", paddingBottom: "2rem", textAlign: "center" }}>Our Accomplishments</h1>
           </div>

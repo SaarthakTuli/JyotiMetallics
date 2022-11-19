@@ -9,7 +9,7 @@
 
 .footer__div {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 
   color: var(--color-white);
 
@@ -48,6 +48,26 @@
   padding-left: 1rem;
 }
 
+.footer__links:link {
+  color: var(--color-light);
+}
+
+.footer__links:visited {
+  color: var(--color-light);
+}
+
+.footer__links:hover {
+  color: var(--color-light);
+}
+
+.footer__links:focus {
+  color: var(--color-light);
+}
+
+.footer__links:active {
+  color: var(--color-light);
+}
+
 .footer__icon {
   scale: 1.5;
   color: var(--color-light);
@@ -67,7 +87,7 @@
   }
 
   .footer__contactDiv {
-    align-items: flex-start;
+    align-items: center;
     padding-left: 2rem;
   }
 
@@ -110,5 +130,6 @@
 
   .footer__contactDiv {
     justify-content: flex-start;
+    align-items: center;
   }
 }

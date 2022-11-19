@@ -5,9 +5,12 @@
 }
 
 .qualification__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   color: var(--color-white);
   background: var(--color-primary);
-  padding: 1.2rem;
   border-radius: 1.2rem;
   text-align: center;
   border: 1px solid transparent;
@@ -28,6 +31,10 @@
 .qualification__name {
   text-align: center;
   font-size: 18px;
+}
+
+.qualification__content {
+  padding-top: 2rem;
 }
 
 /* ============================== MEDIA QUERIES (SMALL DEVICES) ============================ */

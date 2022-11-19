@@ -283,6 +283,12 @@
   .product {
     grid-template-columns: 1fr;
   }
+
+  .zoomImg {
+    top: 40%;
+    left: 20%;
+    scale: 1.5;
+  }
 }
 
 /* ============================== MEDIA QUERIES (SMALL DEVICES) ============================ */
@@ -307,5 +313,11 @@
 
   .product {
     grid-template-columns: 1fr;
+  }
+
+  .zoomImg {
+    top: 30%;
+    left: 0;
+    scale: 0.8;
   }
 }

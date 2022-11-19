@@ -5,7 +5,7 @@ function DeflectorCumPinchRoll() {
   return (
     <div>
       <div style={{margin: "7%"}}>
-        <h1>Features: </h1>
+        <h1 className='.prod_SpecTitle'>Features: </h1>
         <ul className='features'>
           <li>Modern Design</li>
           <li>Robust Steel Construction</li>

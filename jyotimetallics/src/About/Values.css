@@ -30,3 +30,34 @@
   font-size: 20px;
   color: var(--color-light);
 }
+
+@media screen and (max-width: 1024px) {
+  .values__title {
+    font-size: 32px;
+  }
+
+  .values__description {
+    font-size: 18px;
+    padding-bottom: 10rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .values__title {
+    font-size: 30px;
+  }
+
+  .values__description {
+    font-size: 13.8px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .values__title {
+    font-size: 30px;
+  }
+
+  .values__description {
+    font-size: 16px;
+  }
+}

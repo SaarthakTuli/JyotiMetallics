@@ -7,11 +7,11 @@
 
   text-align: center;
 
-  padding: 50px;
+  padding: 40px;
 }
 
 .counter__number {
   display: block;
   scale: 1.5;
-  padding-bottom: 10px;
+  /* padding-bottom: 10px; */
 }

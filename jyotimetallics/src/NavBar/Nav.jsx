@@ -35,7 +35,12 @@ function Nav() {
 
     const closeIt = (e) => {
         console.log(e.clientX);
-        if (window.innerWidth > 768 && e.clientX < 1050) {
+        if (window.innerWidth > 1025 && e.clientX < 1050) {
+            setIsDrop(false);
+            setIsOpen(false);
+        }
+
+        else if (window.innerWidth > 768 && e.clientX < 650) {
             setIsDrop(false);
             setIsOpen(false);
         }

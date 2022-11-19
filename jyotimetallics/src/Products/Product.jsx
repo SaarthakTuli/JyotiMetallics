@@ -8,13 +8,15 @@ import Footer from '../Footer/Footer'
 
 import { useLocation } from 'react-router';
 
-function Product(props) {
+function Product(props, {Banner}) {
 
 	const location = useLocation();
 
+	console.log(props);
+
   return (
 	  <div>
-      <Header banner={"./Banner/Banner2.jpg"} text={"Product"} lightText={false} />
+      <Header banner={Banner} text={"Product"} lightText={false} />
       	<div>
 			<img
 				src='Banner/Banner2.jpg'

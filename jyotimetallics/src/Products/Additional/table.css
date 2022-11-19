@@ -1,3 +1,7 @@
+h1 {
+  margin-bottom: 3rem;
+}
+
 .styled__table {
   border-collapse: collapse;
   margin: 25px 0;

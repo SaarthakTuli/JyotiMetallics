@@ -7,10 +7,10 @@ import Product from './Products/Products';
 import GoToTop from '../GoToTop';
 import Footer from '../Footer/Footer'
 
-function Home() {
+function Home({Banner}) {
   return (
     <>
-      <Header Banner={"./Banner/Banner1.jpg"} text={"Welcome to Jyoti Metallics"} lightText={false} />
+      <Header Banner={Banner} text={"Welcome to Jyoti Metallics"} lightText={false} />
       <AboutHome />
       <Product />
 
